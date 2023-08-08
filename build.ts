@@ -26,7 +26,7 @@ const build = async (): Promise<void> => {
   );
   // php가 로드할 pre-rendered html block을 만들어준다.
   const subFile = fs.createWriteStream(
-    `./dist/${packageJson.name}.html`,
+    `./dist/${packageJson.name}.php`,
     "utf-8"
   );
   subFile.write('<div id="root">');
