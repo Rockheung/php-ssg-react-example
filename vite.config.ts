@@ -7,5 +7,6 @@ export default defineConfig({
   build: {
     manifest: true,
     emptyOutDir: true,
+    copyPublicDir: false
   }
 })
