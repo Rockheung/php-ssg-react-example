@@ -12,10 +12,6 @@ echo <<<EOT
     <meta charset="UTF-8">
     <title>PHP Test: $package_name</title>
 </head>
-<body>
-    <div id="root">
-        $prerendered_html
-    </div>
-</body>
+<body>$prerendered_html</body>
 </html>
 EOT;
