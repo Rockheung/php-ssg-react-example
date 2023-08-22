@@ -1,1 +1,1 @@
-# React + PHP SSR Example
+# React + PHP SSG Example

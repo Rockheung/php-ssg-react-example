@@ -4,5 +4,5 @@
     <meta charset="UTF-8">
     <title>PHP Test</title>
 </head>
-<body><?php require("dist/php-ssr-react-example.php"); ?></body>
+<body><?php require("dist/php-ssg-react-example.php"); ?></body>
 </html>
