@@ -32,7 +32,7 @@ const build = async (): Promise<void> => {
   subFile.write('<div id="root">');
 
   const { pipe } = renderToPipeableStream(React.createElement(App), {
-    // 엔트리 포인트가 하나 이상임이 보장되고, 멀티 output 하지 않을 것이기 때문에.
+    // 엔트리 포인트의 단일함이 보장되고, 멀티 output 하지 않을 것이기 때문에.
     bootstrapScripts: [
       path.join(
         "dist",
